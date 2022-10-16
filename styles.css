@@ -1,0 +1,10 @@
+:root {
+    --white: #FFFFFF;
+    --backround: #F4F6F6;
+    --dark-backround: #EAEDED;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
