@@ -2,9 +2,53 @@
     --white: #FFFFFF;
     --backround: #F4F6F6;
     --dark-backround: #EAEDED;
+    --font-light-color: #839192;
+
 }
 
 body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    margin: 0;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dash {
+    width: 14vw;
+}
+
+.arrow {
+    width: 10vw;
+}
+
+.main-message {
+    margin: 0;
+}
+
+.message {
+    margin: 5vw;
+}
+
+.search {
+    margin: 0 5vw;
+}
+
+.search-container {
+    display: flex;
+    padding-left: 3vw;
+    background-color: var(--dark-backround);
+    align-items: center;
+    height: 5vh;
+    border-radius: 8px;
+}
+
+.search-icon {
+    height: 3vh;
 }
