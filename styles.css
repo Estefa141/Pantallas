@@ -34,10 +34,11 @@ body {
 
 .message {
     margin: 5vw;
+    font-weight: 400;
 }
 
 .search {
-    margin: 0 5vw;
+    margin: 0 5vw 2vh;
 }
 
 .search-container {
@@ -51,4 +52,41 @@ body {
 
 .search-icon {
     height: 3vh;
+    margin-right: 5px;
+}
+
+.profile-container {
+    display: flex;
+    margin: 0 5vw 2vh;
+    align-items: center;
+}
+
+.add-container {
+    width: 15vw;
+    margin-right: 4vw;
+}
+
+.add-new-friend {
+    padding: 20%;
+    border-radius: 50%;
+    background-color: var(--dark-backround);
+}
+
+.profile {
+    object-fit: cover;
+    width: 11vw;
+    height: 6vh;
+    border-radius: 50%;
+    margin-right: 7vw;
+
+}
+
+.user-name {
+    font-weight: 600;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
 }
