@@ -110,3 +110,20 @@ body {
     background-color: var(--dark-backround);
     border: transparent;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-button {
+    width: 80%;
+    height: 7vh;
+    color: var(--white);
+    background-color: #790FC7;
+    border: transparent;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
