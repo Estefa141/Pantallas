@@ -57,7 +57,23 @@ body {
 
 .profile-container {
     display: flex;
+    flex-direction: row;
     margin: 0 5vw 2vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.profile-container1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5vw 2vh;
+    align-items: center;
+}
+
+.mini-container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -88,5 +104,9 @@ body {
 .add-button {
     display: flex;
     align-items: center;
-    align-self: flex-end;
+    border-radius: 8px;
+    height: 4vh;
+    width: 15vw;
+    background-color: var(--dark-backround);
+    border: transparent;
 }
