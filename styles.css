@@ -37,6 +37,14 @@ body {
     font-weight: 400;
 }
 
+.cost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 6vw;
+}
+
 .search {
     margin: 0 5vw 2vh;
 }
@@ -55,6 +63,15 @@ body {
     margin-right: 5px;
 }
 
+.users-container {
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    margin: 0 5vw 2vh;
+    border-radius: 15px;
+    background-color: var(--backround);
+}
+
 .profile-container {
     display: flex;
     flex-direction: row;
@@ -62,6 +79,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+}
+
+.profile-container2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 3vw;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .profile-container1 {
