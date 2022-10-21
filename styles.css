@@ -133,7 +133,7 @@ body {
     border: transparent;
     margin: 0 5vw 2vh;
     border-radius: 15px;
-    background-color: var(--backround);
+    box-shadow: 2px 2px 5px 2px var(--dark-backround);
 }
 
 .profile-container {
