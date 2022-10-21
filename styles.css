@@ -15,6 +15,53 @@ body {
     margin: 0;
 }
 
+.even-custom-container {
+    display: flex;
+    background-color: transparent;
+    height: 6vh;
+}
+
+.even {
+    display: flex;
+    background-color: var(--dark-backround);
+    margin: 0 0 0 5vw;
+    text-align: center;
+    align-items: center;
+    height: 6vh;
+    border-radius: 10px 0 0 10px;
+}
+
+.even p {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: var(--white);
+    width: 45vw;
+    height: 4vh;
+    margin: 0 0 0 2px;
+    border-radius: 10px;
+}
+
+.custom {
+    display: flex;
+    background-color: var(--dark-backround);
+    margin-right: 5vw;
+    position: relative;
+    height: 6vh;
+    border-radius: 0 10px 10px 0;
+}
+
+.custom p {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: var(--dark-backround);
+    width: 45vw;
+    height: 4vh;
+    margin: 0;
+    border-radius: 10px;
+}
+
 .icons-container {
     display: flex;
     justify-content: space-evenly;
@@ -37,33 +84,6 @@ body {
     font-weight: 400;
 }
 
-.switch-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.switch1 {
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    height: 5vh;
-}
-
-.switch2 {
-    position: relative;
-    display: inline-block;
-    width: 40%;
-    height: 5vh;
-}
-
-.switch1 input,
-.switch2 input {
-    display: none;
-}
-
-.slide {
-    position: absolute;
-}
 
 .cost {
     display: flex;
