@@ -230,6 +230,26 @@ body {
     width: 15vw;
     background-color: var(--dark-backround);
     border: transparent;
+    font-weight: 600;
+}
+
+.added-button {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    height: 4vh;
+    width: 18vw;
+    background-color: #E8E3F8;
+    border: transparent;
+    color: #790FC7;
+    font-weight: 600;
+}
+
+.check {
+    object-fit: cover;
+    width: 2.5vw;
+    height: 1.5vh;
+    margin-right: 1vw;
 }
 
 .button-container {
