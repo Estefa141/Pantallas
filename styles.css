@@ -29,12 +29,10 @@ body {
 }
 
 .dash {
-    box-sizing: border-box;
     width: 13vw;
     height: 2px;
     border-radius: 1px;
     background-color: var(--font-light-color);
-    border: transparent;
 }
 
 .arrow {
@@ -222,27 +220,25 @@ body {
     font-weight: 600;
 }
 
-.add-button {
+.button {
     display: flex;
     align-items: center;
     border-radius: 8px;
     height: 4vh;
-    width: 15vw;
-    background-color: var(--dark-backround);
+
     border: transparent;
     font-weight: 600;
 }
 
+.add-button {
+    background-color: var(--dark-backround);
+    width: 15vw;
+}
+
 .added-button {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    height: 4vh;
-    width: 18vw;
     background-color: #E8E3F8;
-    border: transparent;
     color: #790FC7;
-    font-weight: 600;
+    width: 18vw;
 }
 
 .check {
